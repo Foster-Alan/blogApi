@@ -1,4 +1,4 @@
-const serviceAuth = require('../service/auth.service');
+const serviceAuth = require('../service/authService');
 
 const createToken = async (request, response) => {
     const { email, password } = request.body;
